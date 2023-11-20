@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: brown;
+    font-family:  'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(288deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+}
+
+a {
+    color: inherit;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/*
+.titulo {
+    color: #ad2365;
+    text-align:center;
+    font-size: 50px;
+    font-weight: 700;
+    font-style:
+    text-transform: uppercase;
+}
+*/
+
+.header  {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header ,main, footer {
+    max-width: 600px ;
+    margin:0 auto;
+}
+.main {
+  
+min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.sectionfooter__imagen {
+    width: 100%;
+}
+
+.header__logo {
+    padding: 1rem;
+   
+}
+
+.header__titulo {
+text-align: center;
+padding: 1rem;
+}
+
+.header__descripcion {
+    font-style: italic;
+    text-align: center;
+  
+    
+}
+
+.section1__enlace {
+    text-decoration:none;
+    background-color: palevioletred;
+    display: block;
+    padding:  0.5rem;
+    border-radius: 0.5rem;
+    
+}
+
+.section1__lista
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.section1 {
+    padding: 1rem;
+}
+
+.section2 {
+    padding: 1rem;
+}
+
+.section__video {
+    width: 100%;
+    height: 300px;
+}
+
+.section3 {
+    padding: 1rem;
+}
+
+.section3__lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section3__item {
+    width: 250px;
+    height: 150px;
+    border: 2px solid color rgb(24, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section__enlace {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section4{
+    padding: 1rem;
+}
+.section4__banner {
+    display: block;
+    width: 100%;
+}
+
+.section5 {
+    padding: 2rem;
+}
+
+.section5__boton {
+    background-color: #FFB6B9;
+    border-color: #FFB6B9;
+}
+
+.section5__boton:hover {
+    background-color: #FAE3D9;
+    border-color: #FAE3D9;
+}
